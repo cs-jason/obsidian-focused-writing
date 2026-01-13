@@ -1,0 +1,10 @@
+{
+	"id": "focused-writing",
+	"name": "Focused Writing",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "A distraction-free writing mode with an iA Writer-like experience: hides UI elements, centers the current line, highlights the active sentence, and scales text for focused writing.",
+	"author": "Jason",
+	"authorUrl": "",
+	"isDesktopOnly": true
+}

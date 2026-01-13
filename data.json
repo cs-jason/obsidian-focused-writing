@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "ui": {
+    "hideRibbon": true,
+    "hideTabs": true,
+    "hideStatusBar": true,
+    "hideFileHeader": true,
+    "hideSideDockLeft": true,
+    "hideSideDockRight": true,
+    "fullScreen": false,
+    "hideTitle": true
+  },
+  "typewriter": {
+    "enabled": true,
+    "offset": 0.4
+  },
+  "sentenceFade": {
+    "enabled": true,
+    "opacity": 0.25
+  },
+  "textScaling": {
+    "enabled": true,
+    "fontSize": 24,
+    "fontFamily": "Menlo",
+    "uniformTextSize": true
+  },
+  "maxChars": {
+    "maxChars": 80
+  },
+  "editor": {
+    "useSourceMode": true
+  }
+}

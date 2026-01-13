@@ -82,7 +82,7 @@ body.focused-writing--hide-side-dock-right .sidebar-toggle-button.mod-right {
    ============================================================================= */
 
 body.focused-writing-enabled .cm-editor .cm-content {
-	font-size: var(--focused-writing-font-size, 40px);
+	font-size: var(--focused-writing-font-size, 24px);
 	font-family: var(--focused-writing-font-family, Menlo, monospace);
 	line-height: 1.6;
 }
@@ -95,7 +95,7 @@ body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-conten
 body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-content .HyperMD-header-4,
 body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-content .HyperMD-header-5,
 body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-content .HyperMD-header-6 {
-	font-size: var(--focused-writing-font-size, 40px) !important;
+	font-size: var(--focused-writing-font-size, 24px) !important;
 	font-weight: bold;
 }
 
@@ -106,13 +106,13 @@ body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-conten
 body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-content .cm-header-4,
 body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-content .cm-header-5,
 body.focused-writing-enabled.focused-writing--uniform-text .cm-editor .cm-content .cm-header-6 {
-	font-size: var(--focused-writing-font-size, 40px) !important;
+	font-size: var(--focused-writing-font-size, 24px) !important;
 	font-weight: bold;
 }
 
 /* Inline title (page title) - uniform size, bold */
 body.focused-writing-enabled.focused-writing--uniform-text .inline-title {
-	font-size: var(--focused-writing-font-size, 40px) !important;
+	font-size: var(--focused-writing-font-size, 24px) !important;
 	font-weight: bold;
 	font-family: var(--focused-writing-font-family, Menlo, monospace);
 }
@@ -124,36 +124,36 @@ body.focused-writing-enabled.focused-writing--uniform-text .inline-title {
 
 /* Override Obsidian's --file-line-width variable */
 body.focused-writing-enabled.focused-writing--max-chars {
-	--file-line-width: var(--focused-writing-max-chars, 64ch) !important;
+	--file-line-width: var(--focused-writing-max-chars, 80ch) !important;
 }
 
 /* Override readable line width on the editor content */
 body.focused-writing-enabled.focused-writing--max-chars .cm-editor .cm-content {
-	max-width: var(--focused-writing-max-chars, 64ch) !important;
+	max-width: var(--focused-writing-max-chars, 80ch) !important;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 body.focused-writing-enabled.focused-writing--max-chars .cm-editor .cm-line {
-	max-width: var(--focused-writing-max-chars, 64ch) !important;
+	max-width: var(--focused-writing-max-chars, 80ch) !important;
 }
 
 /* Override when Obsidian's readable line width is enabled */
 body.focused-writing-enabled.focused-writing--max-chars.is-readable-line-width .cm-editor .cm-content,
 body.focused-writing-enabled.focused-writing--max-chars .is-readable-line-width .cm-editor .cm-content {
-	max-width: var(--focused-writing-max-chars, 64ch) !important;
+	max-width: var(--focused-writing-max-chars, 80ch) !important;
 }
 
 body.focused-writing-enabled.focused-writing--max-chars.is-readable-line-width .cm-editor .cm-sizer,
 body.focused-writing-enabled.focused-writing--max-chars .is-readable-line-width .cm-editor .cm-sizer {
-	max-width: var(--focused-writing-max-chars, 64ch) !important;
+	max-width: var(--focused-writing-max-chars, 80ch) !important;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 /* Center the inline title as well */
 body.focused-writing-enabled.focused-writing--max-chars .inline-title {
-	max-width: var(--focused-writing-max-chars, 64ch) !important;
+	max-width: var(--focused-writing-max-chars, 80ch) !important;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -164,7 +164,7 @@ body.focused-writing-enabled.focused-writing--max-chars .inline-title {
 
 /* Dim all lines when focused writing is active */
 body.focused-writing-enabled .cm-editor .cm-line {
-	opacity: var(--focused-writing-dimmed-opacity, 0.4);
+	opacity: var(--focused-writing-dimmed-opacity, 0.25);
 }
 
 /* Active line stays fully visible */
@@ -174,7 +174,7 @@ body.focused-writing-enabled .cm-editor .cm-line.cm-active {
 
 /* Within the active line, dim inactive parts (outside active sentence) */
 body.focused-writing-enabled .cm-editor .cm-line.cm-active .focused-writing-inactive {
-	opacity: var(--focused-writing-dimmed-opacity, 0.4);
+	opacity: var(--focused-writing-dimmed-opacity, 0.25);
 }
 
 /* Active sentence is fully visible */
